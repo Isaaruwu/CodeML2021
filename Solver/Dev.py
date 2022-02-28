@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler, MaxAbsScaler
 
 from Utils import select_features
 
-mats_train = pd.read_csv('train.csv')
+mats_train = pd.read_csv('Test&Train/train.csv')
 
 print('imputing... \n')
 imputer = KNNImputer(n_neighbors=500)
