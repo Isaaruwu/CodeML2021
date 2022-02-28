@@ -5,7 +5,7 @@ from sklearn.impute import KNNImputer
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler
 
-mats_train = pd.read_csv('../train.csv')
+mats_train = pd.read_csv('../Test&Train/train.csv')
 print('imputing... \n')
 
 imputer = KNNImputer(n_neighbors=500)
